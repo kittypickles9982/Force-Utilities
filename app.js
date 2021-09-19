@@ -20,7 +20,7 @@ const client = new Client(config, { ws: { intents: intents } });
 function init() {
   client.loadEvents('./src/events');
   client.loadCommands('./src/commands');
-  client.loadTopics('./data/trivia');
+  client.loadTopics('./res/trivia');
   client.login(client.token);
 }
 

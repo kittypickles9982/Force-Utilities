@@ -2,7 +2,7 @@ module.exports = async (client) => {
   
   const activities = [
     { name: 'your commands', type: 'LISTENING' }, 
-    { name: '@Calypso', type: 'LISTENING' }
+    { name: '@Force Utilities', type: 'LISTENING' }
   ];
 
   // Update presence
@@ -27,7 +27,7 @@ module.exports = async (client) => {
      * ------------------------------------------------------------------------------------------------ */ 
     // Find mod log
     const modLog = guild.channels.cache.find(c => c.name.replace('-', '').replace('s', '') === 'modlog' || 
-      c.name.replace('-', '').replace('s', '') === 'moderatorlog');
+      c.name.replace('-', '').replace('s', '') === 'moderatorlog'); 
 
     // Find admin and mod roles
     const adminRole = 

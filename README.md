@@ -1,8 +1,5 @@
 <h1 align="center">
-  <br>
-  <a href="https://github.com/sabattle/CalypsoBot"><img src="./data/images/Calypso_Title.png"></a>
-  <br>
-  Calypso Discord Bot
+  Force Utilities
   <br>
 </h1>
 
@@ -10,10 +7,6 @@
 
 
 <div align=center>
-
-  <a href="https://discord.gg/pnYVdut">
-    <img src="https://discordapp.com/api/guilds/709992782252474429/widget.png?style=shield" alt="shield.png">
-  </a>
 
   <a href="https://github.com/discordjs">
     <img src="https://img.shields.io/badge/discord.js-v12.3.1-blue.svg?logo=npm" alt="shield.png">
@@ -39,11 +32,17 @@
   <a href="#credits">Credits</a>
 </p>
 
+<br>
+<h2 align="center">
+	A Fork of <a href="https://github.com/sabattle/CalypsoBot">Calypso Bot</a>
+</h2>
+<br>
+
 ## About
 
-Calypso is an open source, fully customizable Discord bot that is constantly growing. She comes packaged with a variety of commands and a multitude of settings that can be tailored to your server's specific needs. Her codebase also serves as a base framework to easily create Discord bots of all kinds. You can invite her to your Discord server using [this](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599) link! Also, you can join the official [Calypso Support Server](https://discord.gg/pnYVdut) for all questions, suggestions, and assistance!
+Force Utilities is an open source, fully customizable Discord bot that is constantly growing. It comes packaged with a variety of commands and a multitude of settings that can be tailored to your server's specific needs. Its codebase also serves as a base framework to easily create Discord bots of all kinds. You can submit an issue for all questions, suggestions, and assistance!
 
-If you liked this repository, feel free to leave a star ⭐ to help promote Calypso!
+If you liked this repository, check out the original repo, <a href="https://github.com/sabattle/CalypsoBot">Calypso Bot by Sebastian Battle!</a>
 
 ## Features
 
@@ -56,9 +55,11 @@ If you liked this repository, feel free to leave a star ⭐ to help promote Caly
   * **Points:** A unique points system with a rotating winner that has commands like `leaderboard`, `givepoints`, and `crown`
   * **Color:** Change your Discord color with commands like `color`, `createcolor` and `randomcolor`
   * **Owner:** Owner specific commands like `eval` and `servers`
+  * **YouTube:** Listen to music, and get upload notifications with `music` and	`youtube`
+  * **Reddit:** 
   * **Miscellaneous:** All other commands like `feedback` and `bugreport`
 
-Calypso also comes packed with a variety of features, such as:
+Force Utilities also comes packed with a variety of features, such as:
 
   * **Auto role** assignment
   * Server **verification** via reactions
@@ -74,9 +75,9 @@ Calypso also comes packed with a variety of features, such as:
 
 ## Installation
 
-You can add Calypso to your server with [this](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599) link! Alternatively, you can clone this repo and host the bot yourself.
+You can clone this repo and host the bot yourself.
 ```
-git clone https://github.com/sabattle/CalypsoBot.git
+git clone https://github.com/kittypickles9982/Force-Utilities.git
 ```
 After cloning, run an
 ```

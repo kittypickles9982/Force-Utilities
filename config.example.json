@@ -1,5 +1,5 @@
 {
-  "token": "your_token_here",
+  "token": "your_bot_token_here",
   "ownerId": "your_ID_here",
   "bugReportChannelId": "bug_report_channel_ID_here",
   "feedbackChannelId": "feedback_channel_ID_here",

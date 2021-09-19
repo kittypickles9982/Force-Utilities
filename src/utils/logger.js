@@ -1,3 +1,4 @@
+const config = require(`${__basedir}/config.json`);
 const { createLogger, format, transports } = require('winston');
 const path = require('path');
 
@@ -18,7 +19,7 @@ const logFormat = format.printf((info) => {
  * @type {Logger}
  */
 const logger = createLogger({
-  level: 'debug',
+  level: config.logger,
   format: format.combine(
     format.errors({ stack: true }),
     format.label({ label: path.basename(process.mainModule.filename) }),
